@@ -1,32 +1,44 @@
-# additional-op-3-spotify_analyze
+Spotify Analysis
+Overview
+This repository contains Python scripts for analyzing the Spotify Top Tracks dataset (2023). The dataset includes information about various tracks, such as artist name, track title, release date, genres, danceability, valence, energy, and more.
 
-Tasks: 
-- find the average value of the danceability of the tracks;
-- find the difference in days between the release dates of the most and least popular tracks (look at popularity);
-- find which three genres occur most often in the dataset;
-- find the average value of liveliness for tracks where energy is greater than 0.5;
-- find artists whose tracks appear more than once in the list. Display artists and song titles
+Tasks
+Average Danceability:
 
+Find the average value of the danceability of the tracks.
+Release Date Difference:
 
-More information about dataset - https://www.kaggle.com/datasets/yukawithdata/spotify-top-tracks-2023
+Find the difference in days between the release dates of the most and least popular tracks (based on popularity).
+Top Three Genres:
+
+Identify the three genres that occur most frequently in the dataset.
+Average Liveliness with Energy Criteria:
+
+Find the average value of liveliness for tracks where energy is greater than 0.5.
+Recurring Artists and Song Titles:
+
+Identify artists whose tracks appear more than once in the list.
+Display artists and song titles for the recurring tracks.
+Dataset
+More information about the dataset, including attribute descriptions, can be found here.
 
 Attribute Descriptions:
 artist_name: the artist name
 track_name: the title of the track
-is_explicit: Indicates whether the track contains explicit content
-album_release_date: The date when the track was released
-genres: A list of genres associated with the track's artist(s)
-danceability: A measure from 0.0 to 1.0 indicating how suitable a track is for dancing based on a combination of musical elements
-valence: A measure from 0.0 to 1.0 indicating the musical positiveness conveyed by a track
-energy: A measure from 0.0 to 1.0 representing a perceptual measure of intensity and activity
-loudness: The overall loudness of a track in decibels (dB)
-acousticness: A measure from 0.0 to 1.0 whether the track is acoustic.
-instrumentalness: Predicts whether a track contains no vocals
-liveness: Detects the presence of an audience in the recordings
-speechiness: Detects the presence of spoken words in a track
-key: The key the track is in. Integers map to pitches using standard Pitch Class notation.
-tempo: The overall estimated tempo of a track in beats per minute (BPM)
-mode: Modality of the track
-duration_ms: The length of the track in milliseconds
-time_signature: An estimated overall time signature of a track
-popularity: A score between 0 and 100, with 100 being the most popular
+is_explicit: indicates whether the track contains explicit content
+album_release_date: the date when the track was released
+genres: a list of genres associated with the track's artist(s)
+danceability: a measure from 0.0 to 1.0 indicating how suitable a track is for dancing based on a combination of musical elements
+valence: a measure from 0.0 to 1.0 indicating the musical positiveness conveyed by a track
+energy: a measure from 0.0 to 1.0 representing a perceptual measure of intensity and activity
+loudness: the overall loudness of a track in decibels (dB)
+acousticness: a measure from 0.0 to 1.0 whether the track is acoustic.
+instrumentalness: predicts whether a track contains no vocals
+liveness: detects the presence of an audience in the recordings
+speechiness: detects the presence of spoken words in a track
+key: the key the track is in. Integers map to pitches using standard Pitch Class notation.
+tempo: the overall estimated tempo of a track in beats per minute (BPM)
+mode: modality of the track
+duration_ms: the length of the track in milliseconds
+time_signature: an estimated overall time signature of a track
+popularity: a score between 0 and 100, with 100 being the most popular
